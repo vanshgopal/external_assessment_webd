@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Vansh's Ice Cream Shop Landing Page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="container">
+      <!-- Navigation Bar -->
+      <nav class="navbar">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <h1>Welcome to Our Ice Cream Shop!</h1>
+    </header>
+    
+    <!-- Section Two - Products -->
+    <section id="products" class="products-section">
+      <h2>Our Delicious Products</h2>
+      <div class="product">
+        <center><img src="images/vanilla.jpeg" alt="Vanilla Ice Cream"></center>
+        <h3>Vanilla Ice Cream</h3>
+        <p>Rich and creamy vanilla ice cream made with natural ingredients.</p>
+      </div>
+      <div class="product">
+        <center><img src="images/chocolate.jpg" alt="Chocolate Ice Cream"></center>
+        <h3>Chocolate Ice Cream</h3>
+        <p>Indulge in our smooth and velvety chocolate ice cream.</p>
+      </div>
+      <div class="product">
+        <center><img src="images/strawberry.jpeg" alt="Strawberry Ice Cream"></center>
+        <h3>Strawberry Ice Cream</h3>
+        <p>Fresh and fruity strawberry ice cream with real berries.</p>
+      </div>
+    </section>
+
+    <!-- Section Three - Description -->
+    <section id="about" class="about-section">
+      <h2>About Our Ice Cream</h2>
+      <p>Our ice cream is made from the finest ingredients, sourced locally and prepared with love. We believe in delivering the best flavors to our customers.</p>
+    </section>
+    
+    <!-- Section Four - Image Gallery (Removed) -->
+
+    <!-- Section Five - Contact -->
+    <section id="contact" class="contact-section">
+      <h2>Contact Us</h2>
+      <form action="/submit-form" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+    
+    <footer class="footer">
+      <p>&copy;2024 Vansh's Ice Cream Shop. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
